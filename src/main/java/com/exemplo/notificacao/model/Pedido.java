@@ -1,19 +1,21 @@
 package com.exemplo.notificacao.model;
 
-public class Pedido {
-    private String cliente;
-    private double valor;
+import com.exemplo.notificacao.observer.IObserver;
 
-    public Pedido(String cliente, double valor) {
+public class Pedido {
+    private final IObserver cliente;
+    private final double valor;
+
+    public Pedido(IObserver cliente, double valor) {
         this.cliente = cliente;
         this.valor = valor;
     }
 
-    public String getCliente() {
-        return cliente;
+    public double getValor() { 
+        return this.valor; 
     }
 
-    public double getValor() {
-        return valor;
+    public IObserver getCliente() {
+        return this.cliente;
     }
 }
