@@ -11,6 +11,6 @@ public class AdicionarItemPedido extends PedidoTemplate {
 
     @Override
     protected String definirAcao() {
-        return "Item adicionado";
+        return "Item adicionado sem alteração de preço";
     }
 }

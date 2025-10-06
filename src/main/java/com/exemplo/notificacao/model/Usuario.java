@@ -25,7 +25,7 @@ public class Usuario implements IObserver {
     @Override
     public void notificar(Pedido pedido, String acao, IStrategy... estrategias) {
         System.out.println("\nRegistrando notificações para " + nome + ":\n" + acao +
-                           ". Pedido no valor: R$" + pedido.getValor());
+                           ". Valor do cupom: R$" + pedido.getValor());
 
         for (IStrategy e : estrategias) {
             if (canaisInscritos.contains(e.getClass())) {

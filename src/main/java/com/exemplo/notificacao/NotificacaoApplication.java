@@ -26,7 +26,7 @@ public class NotificacaoApplication implements CommandLineRunner {
 
         // Criando usuários
         Usuario usuario1 = new Usuario("Eric");
-        Usuario usuario2 = new Usuario("Bruno");
+        Usuario usuario2 = new Usuario("Marcelo");
 
         usuario1.inscrever(PushStrategy.class);
         usuario1.inscrever(EmailStrategy.class);

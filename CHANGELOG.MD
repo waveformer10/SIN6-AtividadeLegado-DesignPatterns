@@ -39,3 +39,13 @@ O formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/)
   - Redução de acoplamento entre classes.
   - Maior flexibilidade para adicionar novos tipos de notificações e fluxos de pedidos.
   - Código mais organizado, legível e fácil de manter.
+
+## [1.1.1] - 2025-10-06
+### Adicionado
+- Sem adições
+
+### Corrigido
+- Sem correções
+
+### Modificado
+- Textos com maior facilidade de compreensão.
